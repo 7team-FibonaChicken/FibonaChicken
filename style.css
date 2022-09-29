@@ -1,0 +1,36 @@
+body {
+  position: relative;
+}
+
+p {
+  font-size: 20px;
+}
+
+.num-in {
+  width: 60px;
+  height: 20px;
+}
+
+.non-br {
+  position: absolute;
+  top: 75px;
+  left: 72px;
+}
+
+.btn {
+  background-color: #fff;
+  color: green;
+  width: 65px;
+  height: 30px;
+  border-radius: 4px;
+  border: 2px solid green;
+  transition: .3s;
+  position: absolute;
+  top: 140px;
+  left: 0;
+}
+
+.btn:hover {
+  background-color: green;
+  color: #fff;
+}
